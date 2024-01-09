@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="weather.css">
+  <!-- <script type="text/javascript" href="weather.js"></script> -->
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="mdiv">
+        <div class="weather_app">
+            <h1>WEATHER FORECAST APP</h1>
+            <div class="ip">
+            <input type="text" id="userText">
+            <button onclick="getWeatherData();"><img src="https://th.bing.com/th/id/R.3f57f141bf88cbb719fa6780f8920161?rik=d%2fMqFHREf%2btkkg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_375852.png&ehk=QamXXHdTBB1UkYWqYFIEcsqZh1T1RFtZHjaclo96kYs%3d&risl=&pid=ImgRaw&r=0" alt="" class="search_img"></button> 
+        </div>
+        <div class="info" align="center">
+            <img src="https://cdn-icons-png.flaticon.com/512/3222/3222808.png" alt="" class="weather_img">
+            <h1 id="temp">27°C</h1>
+            <h2 id="city">PUNE</h2>
+             
+        </div>
+        <div class="info2">
+            <div class="humidity">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" alt="" class="humi">
+                <h3>HUMIDITY</h3>
+                <h4 id="humidity_info">50%</h4>
+            </div>
+            <div class="wind">
+                <img src="https://icon-library.com/images/wind-icon-png/wind-icon-png-2.jpg" alt="" class="humi">
+                <h3 id="wi">WIND</h3>
+                <h4 id="wind_info">4 km/h</h4>
+            </div>
+        </div>
+            
+
+
+        </div>
+    </div>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
